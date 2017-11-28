@@ -21,6 +21,14 @@ import Foundation
  Type the code that you see above. Then run the playground to try it out.
  */
 // Define the function here
+/// Calculate the distance between two points in a Cartesian plane
+///
+/// - Parameters:
+///   - fromX: the ordinate (x-value) of the first point
+///   - fromY: the abscissa (y-value) of the first point
+///   - toX: the ordinate (x-valtue) of the second point
+///   - toY: the abscissa (y-value) of the second point
+/// - Returns: the distance between the first and second point.
 func distance(fromX: Double, fromY: Double, toX: Double, toY: Double) -> Double{
     return sqrt(pow(fromX - toX, 2)+pow(fromY - toY, 2))
 }
